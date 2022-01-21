@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Accordion example</title>
+</head>
+<body>
+  <div class="accordion">
+    <div class="contentBox">
+      <div class="label">List One</div>
+      <div class="content">
+        <p>
+          Estamos trabalhando para nos adequar às disposições da LGPD e para assegurar que os seus dados estejam cada vez mais seguros em nossas plataformas e softwares.
+        </p>
+      </div>
+    </div>
+    <div class="contentBox">
+      <div class="label">List Two</div>
+      <div class="content">
+        <p>
+          Estamos trabalhando para nos adequar às disposições da LGPD e para assegurar que os seus dados estejam cada vez mais seguros em nossas plataformas e softwares.
+        </p>
+      </div>
+    </div>
+    <div class="contentBox">
+      <div class="label">List Three</div>
+      <div class="content">
+        <p>
+          Estamos trabalhando para nos adequar às disposições da LGPD e para assegurar que os seus dados estejam cada vez mais seguros em nossas plataformas e softwares.
+        </p>
+      </div>
+    </div>
+    <div class="contentBox">
+      <div class="label">List Four</div>
+      <div class="content">
+        <p>
+          Estamos trabalhando para nos adequar às disposições da LGPD e para assegurar que os seus dados estejam cada vez mais seguros em nossas plataformas e softwares.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+<script>
+    const accordion = document.getElementsByClassName('contentBox');
+
+for (i = 0; i < accordion.length; i++) {
+  accordion[i].addEventListener('click', function () {
+    this.classList.toggle('active')
+  })
+}
+</script>
+
+
+</body>
+</html>
