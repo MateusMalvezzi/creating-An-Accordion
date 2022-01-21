@@ -32,19 +32,19 @@ body {
   cursor: pointer;
 }
 
-.accordion .contentBox .label ::before {
+.accordion .contentBox .label::before {
   content: '+';
   position: absolute;
-  top: 50px;
+  top: 50%;
   right: 20px;
   transform: translateY(-50%);
   font-size:1.5em;
 }
 
-.accordion .contentBox .active .label ::after {
+.accordion .contentBox.active .label::before {
   content: '-';
-}
 
+}
 
 .accordion .contentBox .content {
   position: relative;
@@ -55,9 +55,7 @@ body {
   overflow-y: auto;
 }
 
-
-
-.accordion .contentBox .active .content {
+.accordion .contentBox.active .content {
   height: 150px;
   padding: 10px;
 }
