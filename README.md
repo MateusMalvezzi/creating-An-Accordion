@@ -26,7 +26,7 @@
 
 
  ## Demonstration
-  <div align='center'><img src="Demo.gif" alt="Demo"/></div>
+  <div align='center'><img src="assets/Demo.gif" alt="Demo" width="500"/></div>
     
     
 
